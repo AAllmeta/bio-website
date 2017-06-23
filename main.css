@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url("IMG.JPG");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.artical-header {
+  text-align: center;
+}
+.article-container {
+  width: 500px;
+  margin: 0 auto;
+}
+.header-image {
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+}
+.github-image {
+	height: 64px;
+	width: 64px;
+	position: absolute;
+	margin: -20% 20%;
+}
+.tamu-image {
+	height: 128px;
+	width: 128px;
+	position: absolute;
+	margin: -23.7% 70%;
+}
